@@ -1,4 +1,18 @@
 {
+    "overrides": [
+        {
+            "files": ["*.json", "*.md"],
+            "options": {
+                "parser": "json-eslint-parser"
+            }
+        },
+        {
+            "files": ["config/**/*.json"],
+            "options": {
+                "parser": "json-eslint-parser"
+            }
+        }
+    ],
     "env": {
         "browser": true,
         "es2021": true
