@@ -5,7 +5,7 @@
     },
     "extends": "eslint:recommended",
     "parserOptions": {
-        "ecmaVersion": "latest",
+        "ecmaVersion": "2021",
         "sourceType": "module"
     },
     "rules": {
@@ -15,7 +15,7 @@
         ],
         "linebreak-style": [
             "error",
-            "windows"
+            "unix"
         ],
         "quotes": [
             "error",
